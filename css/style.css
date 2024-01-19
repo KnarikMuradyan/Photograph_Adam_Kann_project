@@ -3,226 +3,230 @@
 
   /* header */
   * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      cursor: pointer;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+img {
+  width: 100%;
+  height: 100%;
   }
 .logo a{
-    color:black;
+  color:rgba(0, 0, 0, 0.62);
 
 }
-  header {
-      padding: 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  }
+header {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-  header ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      list-style: none;
-      margin: 0 60px;
-  }
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0 60px;
+}
 
-  header ul li {
-      padding: 10px;
-  }
+header ul li {
+    padding: 10px;
+}
 
-  header a {
-      text-decoration: none;
-      color: black;
+header a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.62);
 
-  }
+}
 header .logo a:hover{
-      text-shadow: 5px 4px 4px rgb(74, 74, 74);
-      color: #000;
+    text-shadow: 5px 4px 4px rgb(74, 74, 74);
+    color: #000;
 
 
 }
-  header a:hover {
-      text-shadow: 5px 4px 4px rgb(74, 74, 74);
+header a:hover {
+    text-shadow: 5px 4px 4px rgb(74, 74, 74);
 
-  }
+}
 
-  /* header */
- body{
-    background-image:url("../images/bg.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
- }
+/* header */
+body{
+  background-image:url("../images/forbg2.jpeg");
+  background-repeat:repeat;
+  background-size:contain;
+  background-attachment: fixed;
 
-  .headline {
-      color: black;
-      text-align: center;
-      font-size: 30px;
-      letter-spacing: 25px;
-      text-shadow: 3px 2px 6px gray;
-  }
+  
+}
 
-  /* slider */
+.headline {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 25px;
+    text-shadow: 3px 2px 6px gray;
+}
 
-  * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: Roboto, sans-serif
-  }
+/* slider */
 
-
-
-  .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      
-  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif
+}
 
 
-  .title {
-      font-size: 30px;
-      font-weight: 200
-  }
 
-  .sidepanel {
-      position: fixed;
-      left: 60px;
-      top: 240px;
-      height: 400px;
-      width: 25px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center
-  }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
 
-  .offer {
-      padding: 70px 0 100px 0;
-      position: relative
-  }
 
-  .offer .container {
-      display: flex;
-      justify-content: space-between
-  }
+.title {
+    font-size: 30px;
+    font-weight: 200
+}
 
-  .offer .bgc_y {
-      position: absolute;
-      width: 1109px;
-      height: 780px;
-      background: rgb(244, 244, 244);
-      z-index: -1;
-      top: 50px
-  }
+.sidepanel {
+    position: fixed;
+    left: 60px;
+    top: 240px;
+    height: 400px;
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
 
-  .offer__text {
-      width: 580px
-  }
+.offer {
+    padding: 70px 0 100px 0;
+    position: relative
+}
 
-  .offer__descr {
-      font-size: 18px;
-      margin-top: 30px;
-      font-weight: 300;
-      line-height: 24px
-  }
+.offer .container {
+    display: flex;
+    justify-content: space-between
+}
 
-  .offer__action {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end
-  }
+.offer .bgc_y {
+    position: absolute;
+    width: 1109px;
+    height: 780px;
+    background: rgb(244, 244, 244);
+    z-index: -1;
+    top: 50px
+}
 
-  .offer__advantages {
-      width: 330px;
-      margin-top: 50px
-  }
+.offer__text {
+    width: 580px
+}
 
-  .offer__advantages h2 , .about h2{
-      font-weight: 350;
-      font-size: 25px;
-      margin-top: 20px;
-      color: rgb(6, 6, 6)
-  }
+.offer__descr {
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 300;
+    line-height: 24px
+}
 
-  .offer__advantages h2:first-child {
-      margin-top: 70px
-  }
+.offer__action {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+}
 
-  .offer__advantages-text , .about p {
-      margin-top: 20px;
-      font-size: 18px;
-      font-weight: 300;
-      line-height: 21px
-  }
+.offer__advantages {
+    width: 330px;
+    margin-top: 50px
+}
 
-  .offer__slider {
-      width: 650px;
-      margin-top: 50px;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end
-  }
+.offer__advantages h2 , .about h2{
+    font-weight: 350;
+    font-size: 25px;
+    margin-top: 20px;
+    color: rgb(6, 6, 6)
+}
 
-  .offer__slider-counter {
-      display: flex;
-      width: 180px;
-      align-items: center;
-      font-size: 24px;
-      color: rgba(0, 0, 0, 0.5)
-  }
+.offer__advantages h2:first-child {
+    margin-top: 70px
+}
 
-  .offer__slider-wrapper {
-      width: 100%;
-      margin-top: 15px;
-      box-shadow: 0 4px 30px rgba(0, 0, 0, .25)
-  }
+.offer__advantages-text , .about p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px
+}
 
-  .offer__slider-prev {
-      margin-right: 10px;
-      cursor: pointer
-  }
+.offer__slider {
+    width: 650px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
 
-  .offer__slider-next {
-      margin-left: 10px;
-      cursor: pointer
-  }
+.offer__slider-counter {
+    display: flex;
+    width: 180px;
+    align-items: center;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5)
+}
 
-  .offer__slider #current {
-      font-size: 50px;
-      font-weight: 700;
-      color:  #DCCA87
-  }
+.offer__slider-wrapper {
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, .25)
+}
 
-  .offer__slide {
-      width: 100%;
-      height: 390px
-  }
+.offer__slider-prev {
+    margin-right: 10px;
+    cursor: pointer
+}
 
-  .offer__slide img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover
-  }
+.offer__slider-next {
+    margin-left: 10px;
+    cursor: pointer
+}
 
-  .slide_btn {
-      border: none;
-      color: #5b5959;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      background: transparent;
+.offer__slider #current {
+    font-size: 50px;
+    font-weight: 700;
+    color:  #DCCA87
+}
 
-  }
+.offer__slide {
+    width: 100%;
+    height: 390px
+}
 
-  /* slider */
+.offer__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
 
-  /* Portraits */
-   .gallery{
+.slide_btn {
+    border: none;
+    color: #5b5959;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: transparent;
+
+}
+
+/* slider */
+/* Portraits */
+.gallery{
     width: 90%;
     margin: 0 auto;
     background-color: rgb(244, 244, 244);
     padding: 50px;
-
    }
 
    .gallery .images{
@@ -231,16 +235,28 @@ header .logo a:hover{
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         display: grid;
         gap: 25px;
+        overflow: hidden;
+    }
+    .images .image{
+    overflow: hidden;
+ }
 
-   }
-
-   img{
+ img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
     display: block;
+    transition: all 1.3s;
+
    }
 
+   .gallery .images img:hover{
+    transform: scale(1.5);
+    overflow: hidden;
+    transition: 2s;
+   }
+
+   
    .portraiits_hd{
     padding: 0  0 40px 0;
    }
@@ -400,18 +416,6 @@ header .logo a:hover{
 
  /* scrole */
 
- ::-webkit-scrollbar {
-    background-color: rgb(244, 244, 244);
-    width: 25px;
-}
-
-::-webkit-scrollbar-thumb {
-    background-image: url("../images/camera.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 5px;
-    
-}
 
 /* contact */
 .contact_container{
@@ -431,8 +435,8 @@ header .logo a:hover{
     padding: 10px 30px;
     outline: none;
     width: 100%;
-    color: black;
-    box-shadow: 3px 3px 7px 3px;
+    color: rgb(91, 91, 91);
+    box-shadow: 2px 2px 2px 2px;
 }
 
 ::placeholder {
@@ -450,8 +454,8 @@ header .logo a:hover{
     padding: 10px 30px;
     outline: none;
     width: 25%;
-    color: black;
-    box-shadow: 7px 6px 9px #000000;
+    color: rgb(91, 91, 91);
+    box-shadow: 2px 2px 2px 2px;
 
  }
  .contact button:hover{
