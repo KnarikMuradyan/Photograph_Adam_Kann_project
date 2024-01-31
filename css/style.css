@@ -7,6 +7,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position:fixed;
+    width: 100%;
+    background: rgba(255, 235, 156, 0.252);
+    height: 20px;
+    z-index: 77;
+
 }
 
 header ul {
@@ -41,6 +47,7 @@ header a:hover {
     letter-spacing: 25px;
     text-shadow: 3px 2px 6px gray;
     transition: all 2s;
+    margin: 20px 0;
 }
 .headline:hover{
     transform: translateY(-10px);
@@ -219,7 +226,7 @@ header a:hover {
    }
 
    .gallery .images img:hover{
-    transform: scale(1.4);
+    transform: scale(1.4) rotate(10deg);
    }
 
    .portraiits_hd{
@@ -229,7 +236,6 @@ header a:hover {
 
   
   nav {
-      position: absolute;
       right: 0;
       top: 400px;
       padding: 10 40px;
