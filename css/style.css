@@ -7,9 +7,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position:fixed;
     width: 100%;
-    background: rgba(255, 235, 156, 0.252);
     height: 20px;
     z-index: 77;
 
@@ -64,7 +62,7 @@ header a:hover {
 
 .title {
     font-size: 30px;
-    font-weight: 200
+    font-weight: 200;
 }
 
 .sidepanel {
@@ -93,7 +91,7 @@ header a:hover {
     position: absolute;
     width: 1109px;
     height: 780px;
-    background: rgb(244, 244, 244);
+    background: white;
     z-index: -1;
     top: 50px
 }
@@ -123,7 +121,7 @@ header a:hover {
 .offer__advantages h2 , .about h2{
     font-weight: 350;
     font-size: 25px;
-    margin-top: 20px;
+    margin-top: 23px;
     color: rgb(6, 6, 6)
 }
 

@@ -1,0 +1,521 @@
+/* 500px for portrait phones.
+768px for tablets.
+992px for laptops.
+1200px for large devices. */
+
+
+@media all and (max-width: 500px) {
+    .headline {
+        font-size: 25px;
+        letter-spacing: 23px;
+    }
+
+    .title {
+        font-size: 17px;
+        font-weight: 100;
+        width: 100%;
+    }
+
+    .offer .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .offer .bgc_y {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 400px;
+        width: 100%;
+    }
+
+    .offer__text {
+        width: 100%;
+        padding: 30px
+    }
+
+    .offer__descr {
+        font-size: 18px;
+        margin-top: 30px;
+        font-weight: 100;
+        line-height: 24px
+    }
+
+    .offer__advantages {
+        width: 100%;
+        padding: 0 50px;
+    }
+
+
+    .offer__slider {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        right: 40;
+        top: 120px;
+        padding: 10 40px;
+        z-index: 10;
+    }
+
+    body {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    header .menu {
+        width: 100%;
+        display: block;
+        font-size: 10px;
+    }
+
+    header ul li {
+        padding: 5px;
+    }
+
+    .gallery .images {
+        width: 100%;
+    }
+
+    .about .kann_pic {
+        margin: 0px;
+    }
+
+    .image-decoration::after {
+        width: 50%;
+        height: 50%;
+        margin-top: 30px;
+    }
+
+    .image-decoration::before {
+        margin-bottom: 30px;
+        width: 50%;
+        height: 50%;
+
+    }
+
+    .awards .text {
+        padding: 0 50px;
+    }
+
+    .white_part {
+        background: white;
+    }
+
+    /*  */
+    .contact_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contact_container div {
+        padding: 20px;
+    }
+
+    input {
+        width: 100%;
+
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .contact button {
+        width: 50%;
+    }
+
+
+    iframe {
+        width: 100%;
+    }
+
+    main {
+        padding-bottom: 0;
+    }
+}
+
+@media all and (min-width: 501px) and (max-width:768px) {
+
+    .offer .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .offer .bgc_y {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-height: 350px;
+        width: 100%;
+    }
+
+    .offer__text {
+        width: 100%;
+        padding: 30px
+    }
+
+    .offer__descr {
+        font-size: 18px;
+        margin-top: 30px;
+        font-weight: 100;
+        line-height: 24px
+    }
+
+    .offer__advantages {
+        width: 100%;
+        padding: 0 50px;
+    }
+
+
+    .offer__slider {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        right: 40;
+        top: 120px;
+        padding: 10 40px;
+        z-index: 10;
+    }
+
+    body {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    header .menu {
+        width: 100%;
+        display: block;
+        font-size: 10px;
+    }
+
+    header ul li {
+        padding: 5px;
+    }
+
+    .gallery .images {
+        width: 100%;
+    }
+
+    .about .kann_pic {
+        margin: 0px;
+    }
+
+    .image-decoration::after {
+        width: 50%;
+        height: 50%;
+        margin-top: 30px;
+    }
+
+    .image-decoration::before {
+        margin-bottom: 30px;
+        width: 50%;
+        height: 50%;
+
+    }
+
+    .awards .text {
+        padding: 0 50px;
+    }
+
+    .white_part {
+        background: white;
+    }
+
+    /*  */
+    .contact_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contact_container div {
+        padding: 20px;
+    }
+
+    input {
+        width: 100%;
+
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .contact button {
+        width: 50%;
+    }
+
+
+    iframe {
+        width: 100%;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    main {
+        padding-bottom: 0;
+    }
+
+}
+
+@media all and (min-width: 769px) and (max-width:992px) {
+    .offer .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .offer .bgc_y {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-height: 350px;
+        width: 100%;
+    }
+
+    .offer__text {
+        width: 100%;
+        padding: 30px
+    }
+
+    .offer__descr {
+        font-size: 18px;
+        margin-top: 30px;
+        font-weight: 100;
+        line-height: 24px
+    }
+
+    .offer__advantages {
+        width: 100%;
+        padding: 0 50px;
+    }
+
+
+    .offer__slider {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        right: 40;
+        top: 120px;
+        padding: 10 40px;
+        z-index: 10;
+    }
+
+    body {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    header .menu {
+        width: 100%;
+        display: block;
+        font-size: 10px;
+    }
+
+    header ul li {
+        padding: 5px;
+    }
+
+    .gallery .images {
+        width: 100%;
+    }
+
+    .about .kann_pic {
+        margin: 0px;
+    }
+
+    .image-decoration::after {
+        width: 50%;
+        height: 50%;
+        margin-top: 30px;
+    }
+
+    .image-decoration::before {
+        margin-bottom: 30px;
+        width: 50%;
+        height: 50%;
+
+    }
+
+    .awards .text {
+        padding: 0 50px;
+    }
+
+    .white_part {
+        background: white;
+    }
+
+    /*  */
+    .contact_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contact_container div {
+        padding: 20px;
+    }
+
+    input {
+        width: 100%;
+
+    }
+
+    .contact {
+        width: 80%;
+    }
+
+    .contact button {
+        width: 50%;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+}
+
+@media all and (min-width: 992px) and (max-width:1200px) {
+    .offer .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .offer .bgc_y {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-height: 350px;
+        width: 100%;
+    }
+
+    .offer__text {
+        width: 100%;
+        padding: 30px
+    }
+
+    .offer__descr {
+        font-size: 18px;
+        margin-top: 30px;
+        font-weight: 100;
+        line-height: 24px
+    }
+
+    .offer__advantages {
+        width: 100%;
+        padding: 0 50px;
+    }
+
+
+    .offer__slider {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        right: 40;
+        top: 120px;
+        padding: 10 40px;
+        z-index: 10;
+    }
+
+    body {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    header .menu {
+        width: 100%;
+        display: block;
+        font-size: 10px;
+    }
+
+    header ul li {
+        padding: 5px;
+    }
+
+    .gallery .images {
+        width: 100%;
+    }
+
+    .about .kann_pic {
+        margin: 0px;
+    }
+
+    .image-decoration::after {
+        width: 50%;
+        height: 50%;
+        margin-top: 30px;
+    }
+
+    .image-decoration::before {
+        margin-bottom: 30px;
+        width: 50%;
+        height: 50%;
+
+    }
+
+    .awards .text {
+        padding: 0 50px;
+    }
+
+    .white_part {
+        background: white;
+    }
+
+    /*  */
+    .contact_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contact_container div {
+        padding: 20px;
+    }
+
+    input {
+        width: 100%;
+
+    }
+
+    .contact {
+        width: 80%;
+    }
+
+    .contact button {
+        width: 50%;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
