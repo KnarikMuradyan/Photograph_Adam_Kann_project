@@ -224,7 +224,7 @@ header a:hover {
    }
 
    .gallery .images img:hover{
-    transform: scale(1.4) rotate(10deg);
+    transform: scale(2.1)  translateX(80px);
    }
 
    .portraiits_hd{
